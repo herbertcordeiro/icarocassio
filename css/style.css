@@ -1,16 +1,23 @@
 @font-face {
-  font-family: MADE Soft;
+  font-family: MADE Soft Medium;
   src: url(/assets/font/MADETommySoftMedium.otf);
+}
+
+@font-face {
+  font-family: MADE Soft Regular;
+  src: url(/assets/font/MADETommySoftRegular.otf);
+}
+
+@font-face {
+  font-family: MADE Soft Bold;
+  src: url(/assets/font/MADETommySoftBold.otf);
 }
 
 header {
   position: absolute;
   z-index: 10;
   width: 100%;
-}
-
-.navbar {
-  padding: 20px 0;
+  padding: 0 16vw 0 16vw;
 }
 
 .navbar-brand img {
@@ -18,12 +25,12 @@ header {
 }
 
 .nav-item {
-  font-family: 'MADE Soft';
+  font-family: 'MADE Soft Medium';
   font-size: 0.85rem;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link:hover,
-.navbar-light .navbar-nav .nav-item.active .nav-link  {
+.navbar-light .navbar-nav .nav-item.active .nav-link {
   background: white;
   color: #E50019;
 }
@@ -32,68 +39,50 @@ header {
   color: white;
   padding: 5px 15px;
 }
-/* 
-.banner {
+
+.home {
   position: relative;
-  min-height: 100vh;
   width: 100%;
+  min-height: 85vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  background-size: cover;
-  background-position: center;
-  background-color: #E50019;
-} */
-
-#img {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-}
-.custom-shape-divider-bottom-1604015309 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1604015309 svg {
-  position: relative;
-  display: block;
-  width: calc(208% + 1.3px);
-  height: 164px;
-  transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1604015309 .shape-fill {
-  fill: #FFFFFF;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .custom-shape-divider-bottom-1604015309 svg {
-      width: calc(208% + 1.3px);
-      height: 189px;
-  }
-}
-.background {
-  position: relative;
-  padding: 0;
+  padding: 0 16vw 0 16vw;
   margin: 0;
   background-color: #E50019;
-  width: 100%;
-  height: 100vh;
+}
+
+.text-home {
+  color: white;
+  text-align: end;
+  font-size: 3rem;
+  font-family: 'MADE Soft Regular';
+}
+
+.text-home strong {
+  font-family: 'MADE Soft Bold';
+}
+
+.logo {
+  font-family: 'MADE Soft Regular';
+  color: white;
+}
+
+.logo img {
+  max-height: 250px;
+  margin-bottom: 60px;
+}
+
+.btn-primary-custom {
+  color: #E50019;
+  background-color: white;
+  width: 160px;
+  padding: 8px;
+  border-radius: 20px;
+  font-family: 'MADE Soft Medium';
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
