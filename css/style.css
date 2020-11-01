@@ -86,3 +86,56 @@ header {
   border: none;
   outline: none;
 }
+
+.btn-secondary-custom {
+  color: #E50019;
+  background-color: white;
+  border: #E50019 2px solid;
+  border-radius: 60px;
+  width: 120px;
+  padding: 4px;
+  font-size: 0.8rem;
+  font-family: 'MADE Soft Medium';
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+}
+
+.centered {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.title {
+  font-family: 'MADE Soft Bold';
+  text-align: center;
+  padding: 30px;
+}
+
+.title::after,
+.title::before {
+    content: ' ★ ';
+    font-size: 1.2rem;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16vw 0 16vw;
+  margin-bottom: 30px;
+  column-gap: 2rem;
+}
+
+.about img {
+  width: 33vw;
+  border-radius: 6px;
+}
+
+.text-about {
+  font-family: 'MADE Soft Regular';
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.8rem;
+}
