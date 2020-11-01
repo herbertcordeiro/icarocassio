@@ -1,0 +1,19 @@
+{
+  "name": "icarocassio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herbertcordeiro/icarocassio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herbertcordeiro/icarocassio/issues"
+  },
+  "homepage": "https://github.com/herbertcordeiro/icarocassio#readme"
+}
