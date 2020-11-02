@@ -41,6 +41,8 @@ nav {
   width: 100%;
   min-height: 85vh;
   background-color: #E50019;
+  display: flex;
+  align-items: center;
 }
 
 .text-home {
