@@ -186,3 +186,34 @@ audio {
   width: 500px;
   height: 40px;
 }
+
+.insta {
+  margin: 30px;
+}
+
+footer {
+  background-color: #E50019;
+  color: white;
+}
+
+.cnpj {
+  font-family: 'MADE Soft Regular';
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+}
+
+.footer-custom {
+  padding: 10px;
+  background-color: white;
+  color: #E50019;
+  font-family: 'MADE Soft Regular';
+  font-size: 0.8rem;
+}
+
+.icons-social img {
+  padding: 4px;
+  width: 40px;
+  margin-bottom: 14px;
+}
