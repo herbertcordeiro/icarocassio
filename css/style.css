@@ -154,3 +154,17 @@ nav {
   font-size: 1rem;
   margin-top: -12px;
 }
+
+.proposal  {
+  font-family: 'MADE Soft Medium';
+  text-transform: uppercase;
+}
+
+.proposal a {
+  color: black !important;
+}
+
+.proposal-doc {
+  width: 600px;
+  padding: 30px;
+}
