@@ -13,11 +13,8 @@
   src: url(/assets/font/MADETommySoftBold.otf);
 }
 
-header {
-  position: absolute;
-  z-index: 10;
-  width: 100%;
-  padding: 0 16vw 0 16vw;
+nav {
+  background-color: #E50019;
 }
 
 .navbar-brand img {
@@ -41,14 +38,8 @@ header {
 }
 
 .home {
-  position: relative;
   width: 100%;
   min-height: 85vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 16vw 0 16vw;
-  margin: 0;
   background-color: #E50019;
 }
 
@@ -70,7 +61,6 @@ header {
 
 .logo img {
   max-height: 250px;
-  margin-bottom: 60px;
 }
 
 .btn-primary-custom {
@@ -102,11 +92,6 @@ header {
   outline: none;
 }
 
-.centered {
-  margin: 0 auto !important;
-  float: none !important;
-}
-
 .title {
   font-family: 'MADE Soft Bold';
   text-align: center;
@@ -115,21 +100,12 @@ header {
 
 .title::after,
 .title::before {
-    content: ' ★ ';
-    font-size: 1.2rem;
-}
-
-.about {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 16vw 0 16vw;
-  margin-bottom: 30px;
-  column-gap: 2rem;
+  content: ' ★ ';
+  font-size: 1.2rem;
 }
 
 .about img {
-  width: 33vw;
+  width: 540px;
   border-radius: 6px;
 }
 
@@ -138,4 +114,43 @@ header {
   font-size: 1rem;
   text-align: center;
   line-height: 1.8rem;
+}
+
+.centered {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.custom-card {
+  background-color: #F8F8F8;
+  border-radius: 10px;
+  height: 320px;
+  position: relative;
+  width: 100%;
+}
+
+.photo-card {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px 10px 0 0;
+}
+
+.content-card {
+  font-family: 'MADE Soft Medium';
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.date-news {
+  position: absolute;
+  background-color: #E50019;
+  width: 120px;
+  height: 24px;
+  text-align: center;
+  border-radius: 40px;
+  font-family: 'MADE Soft Medium';
+  text-transform: uppercase;
+  color: white;
+  font-size: 1rem;
+  margin-top: -12px;
 }
