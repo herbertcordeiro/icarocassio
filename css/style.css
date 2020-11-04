@@ -30,6 +30,7 @@ nav {
 .navbar-light .navbar-nav .nav-item.active .nav-link {
   background: white;
   color: #E50019;
+  border-radius: 20px;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
@@ -39,8 +40,12 @@ nav {
 
 .home {
   width: 100%;
-  min-height: 85vh;
-  background-color: #E50019;
+  min-height: 88.5vh;
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(229,0,25,1) 46%);
+  background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(229,0,25,1) 46%);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(229,0,25,1) 46%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#e50019",GradientType=1);
   display: flex;
   align-items: center;
 }
@@ -157,7 +162,7 @@ nav {
   margin-top: -12px;
 }
 
-.proposal  {
+.proposal {
   font-family: 'MADE Soft Medium';
   text-transform: uppercase;
 }
@@ -184,9 +189,12 @@ nav {
   font-size: 1rem;
   padding: 10px;
 }
+
 audio {
   width: 500px;
   height: 40px;
+  outline: none;
+  box-shadow: none;
 }
 
 .insta {
@@ -218,4 +226,46 @@ footer {
   padding: 4px;
   width: 40px;
   margin-bottom: 14px;
+}
+
+.custom-shape-divider-bottom-1604526943 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1604526943 svg {
+  position: relative;
+  display: block;
+  width: calc(162% + 1.3px);
+  height: 248px;
+}
+
+.custom-shape-divider-bottom-1604526943 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1604526943 svg {
+    width: calc(175% + 1.3px);
+    height: 188px;
+  }
+}
+
+.subhome {
+  margin-bottom: 160px;
+}
+
+@media(max-width: 770px) {
+  .logo img {
+    max-height: 200px;
+  }
+
+  .text-home {
+    display: none;
+  }
 }
