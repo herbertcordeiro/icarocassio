@@ -40,7 +40,7 @@ nav {
 
 .home {
   width: 100%;
-  min-height: 88.5vh;
+  min-height: 90vh;
   background: rgb(229, 0, 25);
   background: -moz-linear-gradient(180deg, rgba(229, 0, 25, 1) 51%, rgba(134, 0, 15, 1) 100%);
   background: -webkit-linear-gradient(180deg, rgba(229, 0, 25, 1) 51%, rgba(134, 0, 15, 1) 100%);
@@ -127,6 +127,10 @@ nav {
 .title::before {
   content: ' ★ ';
   font-size: 1.2rem;
+}
+
+.custom-title {
+  margin-top: 62px;
 }
 
 .about img {
@@ -228,7 +232,11 @@ audio {
 }
 
 footer {
-  background-color: #E50019;
+  background: rgb(229, 0, 25);
+  background: -moz-linear-gradient(180deg, rgba(229, 0, 25, 1) 51%, rgba(134, 0, 15, 1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(229, 0, 25, 1) 51%, rgba(134, 0, 15, 1) 100%);
+  background: linear-gradient(180deg, rgba(229, 0, 25, 1) 51%, rgba(134, 0, 15, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e50019", endColorstr="#86000f", GradientType=1);
   color: white;
 }
 
@@ -283,7 +291,7 @@ footer {
 }
 
 .subhome {
-  margin-bottom: 160px;
+  margin-bottom: 90px;
 }
 
 .instagram h4 {
