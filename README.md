@@ -1,2 +1,2 @@
 # icarocassio
-[![Netlify Status](https://api.netlify.com/api/v1/badges/952a8442-4094-4bfc-8419-c0b9f2d651e3/deploy-status)](https://app.netlify.com/sites/icarocassio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1055dc8-daf9-40af-9687-ddc497156a03/deploy-status)](https://app.netlify.com/sites/stoic-austin-a8bcc5/deploys)
