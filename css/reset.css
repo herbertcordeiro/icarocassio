@@ -18,4 +18,5 @@ a:focus {
   text-decoration: none !important;
   outline: none !important;
   box-shadow: none !important;
+  color: black;
 }
